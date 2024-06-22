@@ -1,0 +1,9 @@
+print('Как Вас зовут?')
+name = input()
+print('Здравствуйте, ' + name + '!')
+print('Как дела?')
+deal = input()
+if deal == 'хорошо':
+    print('Я за вас рада!')
+if deal == 'плохо':
+    print('Всё наладится!')
